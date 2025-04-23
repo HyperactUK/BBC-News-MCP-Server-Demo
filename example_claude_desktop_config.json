@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "bbc_news_mcp_server_demo": {
+        "command": "uv",
+        "args": [
+            "run",
+            "--with", "/path/to/mcp-server-demo/",
+            "--with", "mcp[cli]",
+            "mcp", "run", "/path/to/main.py"
+        ]
+        }
+    }
+}
